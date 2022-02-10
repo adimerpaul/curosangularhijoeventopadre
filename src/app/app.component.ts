@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'disparoeventos';
+  mensaje=''
+  actulizar(t:number){
+    this.mensaje=t+' se actualiza cada 10 segundos '
+  }
 }
